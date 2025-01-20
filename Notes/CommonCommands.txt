@@ -1,0 +1,23 @@
+lsb_release -da 
+lsblk 		To get memory split
+ifconfig	To get communication info
+
+
+** Steps to get BBB to communicate with the internet.**
+-In BBB
+Set /etc/resolv.conf to
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+
+- sudo route add default gw 192.168.7.1 usb0
+- sudo route add default gw 192.168.6.1 usb1
+
+-In Host PC
+set the value of /proc/sys/net/ipv4/ip_forward to 1
+
+- sudo iptables --table nat --append POSTROUTING --out-interface enp0s3 -j MASQUERADE
+
+- sudo iptables --append FORWARD --in-interface enxf4b8988aa3d8 -j ACCEPT
+
+
+
