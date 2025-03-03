@@ -1,0 +1,12 @@
+22:34:31 **** Incremental Build of configuration Debug for project MPU6050_raw_read ****
+make all 
+Building file: ../mpu6050_rawread.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mpu6050_rawread.d" -MT"mpu6050_rawread.o" -o "mpu6050_rawread.o" "../mpu6050_rawread.c"
+Finished building: ../mpu6050_rawread.c
+ 
+Building target: MPU6050_raw_read
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc  -o "MPU6050_raw_read" ./mpu6050_rawread.o   
+Finished building target: MPU6050_raw_read
+ 

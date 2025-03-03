@@ -1,0 +1,15 @@
+22:31:37 **** Incremental Build of configuration Debug for project 4_digit_7seg ****
+make all 
+Building file: ../src/4_digit_7seg.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -lm -MMD -MP -MF"src/4_digit_7seg.d" -MT"src/4_digit_7seg.o" -o "src/4_digit_7seg.o" "../src/4_digit_7seg.c"
+Finished building: ../src/4_digit_7seg.c
+ 
+Building target: 4_digit_7seg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -lm -o "4_digit_7seg" ./src/4_digit_7seg.o   
+Finished building target: 4_digit_7seg
+ 
+
+22:31:40 Build Finished. 0 errors, 0 warnings. (took 2s.762ms)
+

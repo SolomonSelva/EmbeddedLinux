@@ -1,0 +1,15 @@
+22:31:42 **** Build of configuration Debug for project button_counter_7seg ****
+make all 
+Building file: ../src/button_counter_7seg.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/button_counter_7seg.d" -MT"src/button_counter_7seg.o" -o "src/button_counter_7seg.o" "../src/button_counter_7seg.c"
+Finished building: ../src/button_counter_7seg.c
+ 
+Building target: button_counter_7seg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc  -o "button_counter_7seg" ./src/button_counter_7seg.o   
+Finished building target: button_counter_7seg
+ 
+
+22:31:42 Build Finished. 0 errors, 0 warnings. (took 484ms)
+

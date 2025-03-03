@@ -1,0 +1,15 @@
+22:31:43 **** Build of configuration Debug for project eeprom_read ****
+make all 
+Building file: ../src/eeprom_read.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/eeprom_read.d" -MT"src/eeprom_read.o" -o "src/eeprom_read.o" "../src/eeprom_read.c"
+Finished building: ../src/eeprom_read.c
+ 
+Building target: eeprom_read
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc  -o "eeprom_read" ./src/eeprom_read.o   
+Finished building target: eeprom_read
+ 
+
+22:31:44 Build Finished. 0 errors, 0 warnings. (took 383ms)
+
